@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noir Salon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="landing_page.html">Home</a></li>
+                <li><a href="pricelist.html">Pricelist</a></li>
+                <li><a href="reservasi.html">Reservasi</a></li>
+                <li><a href="login.html">Login</a></li>
+            
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div class="info-text">
+            Silahkan mengisi form untuk reservasi.
+        </div>
+        <form action="#" method="POST">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+            <label for="noHp">No. Telepon:</label>
+            <input type="text" id="noHp" name="noHP" required>
+
+            <label for="layanan">Pilih Layanan:</label>
+            <select id="layanan" name="layanan">
+                <option value="potong">Potong Rambut</option>
+                <option value="spa">Spa</option>
+                <option value="manicure">Manicure</option>
+                <option value="padicure">Padicure</option>
+                <option value="cat">Cat Rambut</option>
+                <option value="facial">Facial</option>
+                <option value="makeup">MakeUp</option>
+            </select>
+
+            <label for="tanggal">Pilih Tanggal:</label>
+            <input type="date" id="tanggal" name="tanggal" required>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </main>
+    <footer>
+        <p>© 2024 Salon Kecantikan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
